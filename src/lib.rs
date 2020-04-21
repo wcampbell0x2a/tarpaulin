@@ -17,6 +17,7 @@ use std::ffi::CString;
 use std::fs::create_dir_all;
 use std::path::{Path, PathBuf};
 
+pub mod branching;
 pub mod breakpoint;
 mod cargo;
 pub mod config;
